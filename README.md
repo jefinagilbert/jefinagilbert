@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/-0a7c86?style=for-the-badge&logo=typescript&logoColor=3178C6)![JavaScript](https://img.shields.io/badge/-0a7c86?style=for-the-badge&logo=javascript&logoColor=F7DF1E)![Software Engineer](https://img.shields.io/badge/Software%20Engineer-3%2B%20Years%20Experience-0a7c86?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/-111827?style=for-the-badge&logo=typescript&logoColor=3178C6)![JavaScript](https://img.shields.io/badge/-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)![Software Engineer](https://img.shields.io/badge/Software%20Engineer-3%20Years%206%20Months-0a7c86?style=for-the-badge)
 
 <p align="center">
   <b>Software Engineer</b> • <b>React Native Specialist</b> • <b>Distributed Systems & Backend Architect</b>
@@ -73,28 +73,17 @@ Software Engineer with **3+ years of experience** bridging high-performance **Re
 
 ---
 
-## 🛠️ Technical Stack & Architectural Matrix
-
-| Domain / Layer | Core Technologies & Frameworks | Deep Systems & Architectural Focus | Quantifiable Impact & Production Proof |
-| :--- | :--- | :--- | :--- |
-| **📱 Mobile & UI**<br>*(Primary Specialization)* | `React Native` `Redux Toolkit`<br>`Socket.IO` `TypeScript`<br>`React.js` `Next.js` `Tailwind` | • **OS Memory Management** & V8 profiling<br>• **Real-Time Network Protocols** (WebSockets/TCP)<br>• **Offline-First Persistence** & Redux state sync<br>• **Monorepo Design Systems** via Sonatype Nexus | ⚡ **30% fewer socket dropouts** in medical diagnostic IoT controllers.<br>🚀 Fluid 60 FPS cross-platform mobile UX across iOS & Android. |
-| **⚡ Backend & Gateways** | `Node.js` `Express.js`<br>`Apache Kafka` `GraphQL`<br>`REST APIs` | • **API Gateway Routing** (exact service dispatching)<br>• **Idempotency Guarantees** (mutation deduplication)<br>• **Event-Driven Architecture** (Kafka streaming)<br>• **Bounded Contexts** (Domain-Driven Design) | 🔒 Zero duplicate financial & telemetry transactions across network retries.<br>🔄 Decoupled async background processing under heavy concurrent traffic. |
-| **💾 Databases & Storage** | `PostgreSQL` `Redis`<br>`MongoDB` `PgBouncer` | • **Database Engine Internals** & WAL tuning<br>• **B-Tree Indexing** & composite query tuning<br>• **ACID Compliance** & strict transaction schemas<br>• **PgBouncer Pooling** & **Database Sharding** | ⚡ **< 50ms API response latency** achieved through B-Tree indexing.<br>📉 **40% reduction** in primary database load via Redis cache-aside. |
-| **⚙️ DevOps & Cloud** | `Docker` `Kubernetes`<br>`GitHub Actions` `Bitrise`<br>`SonarQube` | • **Automated CI/CD** zero-downtime release pipelines<br>• **SonarQube Quality Gates** & strict type safety<br>• **Container Orchestration** & microservice isolation<br>• **Linux / POSIX Process Lifecycle** management | ⏱️ **60% reduction in deployment release overhead** via automated CI/CD.<br>🛡️ 100% build verification passing automated linting and security gates. |
-
----
-
 ## 🚀 Key Quantifiable Production Milestones
 
 <div align="center">
 
-| Metric | Achievement & Implementation Highlight |
-| :---: | :--- |
-| **`< 50ms`** | **API Response Latency**: Tuned PostgreSQL B-Tree indexes and Redis cache layers, cutting DB load by **40%**. |
-| **`30% ⬇`** | **Fewer Connection Drops**: Optimized Socket.IO and WebSocket protocol handling on React Native medical IoT apps. |
-| **`60% ⚡`** | **Deployment Automation**: Built automated CI/CD pipelines via Bitrise and GitHub Actions with zero-downtime releases. |
-| **`IEEE`** | **Research Publication**: Published author on _"An Intelligent Street Lighting System"_ with smart IoT automation algorithms. |
-| **`Nexus`** | **Enterprise UI Distribution**: Standardized front-end component packages on Sonatype Nexus for multi-team reuse. |
+|    Metric    | Achievement & Implementation Highlight                                                                                        |
+| :----------: | :---------------------------------------------------------------------------------------------------------------------------- |
+| **`< 50ms`** | **API Response Latency**: Tuned PostgreSQL B-Tree indexes and Redis cache layers, cutting DB load by **40%**.                 |
+| **`30% ⬇`**  | **Fewer Connection Drops**: Optimized Socket.IO and WebSocket protocol handling on React Native medical IoT apps.             |
+| **`60% ⚡`** | **Deployment Automation**: Built automated CI/CD pipelines via Bitrise and GitHub Actions with zero-downtime releases.        |
+|  **`IEEE`**  | **Research Publication**: Published author on _"An Intelligent Street Lighting System"_ with smart IoT automation algorithms. |
+| **`Nexus`**  | **Enterprise UI Distribution**: Standardized front-end component packages on Sonatype Nexus for multi-team reuse.             |
 
 </div>
 
