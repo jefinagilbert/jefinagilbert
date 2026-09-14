@@ -3,10 +3,6 @@
 <div align="center">
 
 [![Software Engineer](https://img.shields.io/badge/SOFTWARE_ENGINEER-3%2B_YEARS_EXPERIENCE-10b981?style=for-the-badge&logo=react&logoColor=white)](https://github.com/jefinagilbert)
-[![Live Portfolio](https://img.shields.io/badge/🚀_Live_Portfolio-jefinagilbert.github.io-06b6d4?style=for-the-badge)](https://jefinagilbert.github.io/jefinagilbert/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jefin--agilbert-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jefin-agilbert-35948a20b)
-[![Email](https://img.shields.io/badge/Email-jefinagilbert@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jefinagilbert@gmail.com)
-[![IEEE Publication](https://img.shields.io/badge/IEEE_Author-Smart_Energy_IoT-00629b?style=for-the-badge&logo=ieee&logoColor=white)](https://github.com/jefinagilbert)
 
 <p align="center">
   <b>Software Engineer</b> • <b>React Native Specialist</b> • <b>Distributed Systems & Backend Architect</b>
