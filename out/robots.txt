@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jefinagilbert.github.io/jefinagilbert/sitemap.xml
