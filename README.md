@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![SOFTWARE ENGINEER](3+ YEARS OF EXPERIENCE)
+![SOFTWARE ENGINEER](3+ YEARS OF EXPERIENCE)
 
 <p align="center">
   <b>Software Engineer</b> • <b>React Native Specialist</b> • <b>Distributed Systems & Backend Architect</b>
