@@ -47,8 +47,8 @@ export interface SkillCategory {
 export const portfolioData = {
   name: "Jefin Agilbert",
   role: "Software Engineer",
-  titleExtended: "Backend Architect & Cross-Platform Engineer",
-  tagline: "Architecting resilient distributed systems, sub-50ms backend services, and high-performance React Native applications.",
+  titleExtended: "React Native Specialist & Backend Architect",
+  tagline: "Architecting high-performance React Native mobile applications, resilient Node.js backends, and low-latency database engines.",
   location: "Chennai, India",
   email: "jefinagilbert@gmail.com",
   phone: "+91 6383916053",
@@ -57,12 +57,12 @@ export const portfolioData = {
   repoUrl: "https://github.com/jefinagilbert/jefinagilbert",
   
   about: {
-    summary: `Software Engineer with 3+ years of experience architecting scalable backend services and high-performance cross-platform applications. Proficient in driving end-to-end development, bridging robust Node.js and PostgreSQL architectures with seamless React Native user interfaces to deliver resilient, high-availability solutions.`,
+    summary: `Software Engineer with 3+ years of experience bridging high-performance React Native cross-platform mobile interfaces with robust Node.js and PostgreSQL backends. Experienced in driving end-to-end features—from mobile UI optimization and IoT socket communication to database engine internals, event-driven streaming, and automated CI/CD releases.`,
     highlights: [
-      "3+ years of end-to-end software engineering across production distributed systems.",
-      "Engineered sub-50ms API response pipelines with Node.js, Redis, and optimized PostgreSQL schemas.",
-      "Built real-time Kafka event streaming & socket protocols for IoT diagnostic and maritime telematics.",
-      "Reduced CI/CD deployment overhead by 60% with Docker containerization and GitHub Actions/Bitrise.",
+      "3+ years of end-to-end engineering across production mobile apps and distributed backends.",
+      "Engineered sub-50ms API response pipelines with Node.js, Redis, B-Tree indexing, and optimized PostgreSQL schemas.",
+      "Built real-time Kafka event streaming & Socket.IO protocols for medical diagnostic and maritime telematics.",
+      "Reduced CI/CD deployment overhead by 60% with Docker containerization and Bitrise/GitHub Actions.",
       "Published IEEE author in energy-efficient smart IoT automation systems."
     ],
     quickStats: [
@@ -75,43 +75,59 @@ export const portfolioData = {
 
   skillsCategories: [
     {
-      category: "Backend & System Design",
+      category: "React Native & Mobile Frontend",
+      icon: "Smartphone",
+      description: "High-performance cross-platform iOS & Android apps, state management, and sockets",
+      skills: [
+        { name: "React Native", level: 96, highlight: true },
+        { name: "Redux Toolkit", level: 92, highlight: true },
+        { name: "Socket.IO & WebSockets", level: 92, highlight: true },
+        { name: "React.js", level: 90, highlight: false },
+        { name: "Next.js", level: 86, highlight: false },
+        { name: "TypeScript", level: 92, highlight: false },
+        { name: "Design Systems & UI", level: 90, highlight: true },
+        { name: "Tailwind CSS", level: 90, highlight: false },
+      ]
+    },
+    {
+      category: "Backend & Distributed Systems",
       icon: "Server",
-      description: "Scalable microservices, RESTful APIs, and distributed computing",
+      description: "API Gateway routing, bounded contexts, idempotency, and Node.js microservices",
       skills: [
-        { name: "Node.js", level: 95, highlight: true },
-        { name: "Express.js", level: 92, highlight: true },
-        { name: "RESTful APIs", level: 95, highlight: true },
-        { name: "System Design", level: 88, highlight: true },
-        { name: "Microservices Architecture", level: 86, highlight: true },
-        { name: "TypeScript", level: 90, highlight: false },
-        { name: "API Security & Auth", level: 88, highlight: false },
+        { name: "Node.js & Express", level: 95, highlight: true },
+        { name: "API Gateway Routing", level: 92, highlight: true },
+        { name: "Event-Driven Architecture", level: 94, highlight: true },
+        { name: "Idempotency Guarantees", level: 90, highlight: true },
+        { name: "Bounded Contexts (DDD)", level: 88, highlight: true },
+        { name: "RESTful APIs & GraphQL", level: 92, highlight: false },
+        { name: "System Design", level: 90, highlight: true },
       ]
     },
     {
-      category: "Databases & Caching",
+      category: "Databases & Engine Internals",
       icon: "Database",
-      description: "ACID transactions, query tuning, indexing, and high-throughput caching",
+      description: "ACID compliance, B-Tree indexes, PgBouncer pooling, Redis, and sharding",
       skills: [
-        { name: "PostgreSQL", level: 92, highlight: true },
-        { name: "Redis", level: 90, highlight: true },
+        { name: "PostgreSQL", level: 95, highlight: true },
+        { name: "ACID Compliance", level: 94, highlight: true },
+        { name: "Redis Caching & Pub/Sub", level: 92, highlight: true },
+        { name: "Database Engine Internals", level: 90, highlight: true },
+        { name: "B-Tree Indexing", level: 92, highlight: true },
+        { name: "PgBouncer Connection Pooling", level: 88, highlight: true },
+        { name: "Database Sharding", level: 86, highlight: false },
         { name: "MongoDB", level: 85, highlight: false },
-        { name: "Schema Design & ACID", level: 90, highlight: true },
-        { name: "Query Optimization", level: 88, highlight: false },
-        { name: "Data Persistence", level: 90, highlight: false },
       ]
     },
     {
-      category: "Event-Driven & Messaging",
+      category: "Systems & Network Protocols",
       icon: "Activity",
-      description: "Real-time streaming pipelines, async processing, and WebSockets",
+      description: "Apache Kafka streaming, OS memory management, and TCP network protocols",
       skills: [
-        { name: "Apache Kafka", level: 88, highlight: true },
-        { name: "Socket Communication", level: 92, highlight: true },
-        { name: "WebSockets / Socket.IO", level: 90, highlight: true },
-        { name: "Event-Driven Architecture", level: 89, highlight: true },
-        { name: "Pub/Sub Systems", level: 87, highlight: false },
-        { name: "Data Streaming", level: 85, highlight: false },
+        { name: "Apache Kafka", level: 90, highlight: true },
+        { name: "OS Memory Management", level: 88, highlight: true },
+        { name: "Network Protocols (TCP/Sockets)", level: 90, highlight: true },
+        { name: "Socket Telemetry", level: 92, highlight: true },
+        { name: "Stream Partitioning", level: 86, highlight: false },
       ]
     },
     {
@@ -119,26 +135,13 @@ export const portfolioData = {
       icon: "Cpu",
       description: "Containerization, automated pipelines, quality analysis, and zero-downtime releases",
       skills: [
-        { name: "Docker", level: 88, highlight: true },
-        { name: "Kubernetes", level: 78, highlight: false },
+        { name: "Docker", level: 90, highlight: true },
+        { name: "Kubernetes", level: 80, highlight: false },
         { name: "GitHub Actions", level: 90, highlight: true },
-        { name: "Bitrise CI/CD", level: 86, highlight: true },
+        { name: "Bitrise CI/CD", level: 88, highlight: true },
+        { name: "Sonatype Nexus Distribution", level: 85, highlight: true },
+        { name: "SonarQube Quality Gates", level: 86, highlight: false },
         { name: "Monorepo Management", level: 88, highlight: true },
-        { name: "SonarQube Quality Gates", level: 85, highlight: false },
-        { name: "Sonatype Nexus", level: 82, highlight: false },
-      ]
-    },
-    {
-      category: "Frontend & Mobile",
-      icon: "Smartphone",
-      description: "Pixel-perfect, fluid cross-platform mobile and web applications",
-      skills: [
-        { name: "React Native", level: 94, highlight: true },
-        { name: "React.js", level: 92, highlight: true },
-        { name: "Next.js", level: 88, highlight: true },
-        { name: "State Management", level: 90, highlight: false },
-        { name: "Design Systems & UI", level: 88, highlight: false },
-        { name: "Tailwind CSS", level: 92, highlight: false },
       ]
     }
   ] as SkillCategory[],
@@ -152,13 +155,13 @@ export const portfolioData = {
       badge: "Current Role",
       description: [
         "Architected and maintained scalable full-stack applications, seamlessly integrating cross-platform React Native front-ends with high-performance Node.js and Express backend services.",
-        "Designed ACID-compliant PostgreSQL schemas and implemented Redis caching, reducing database load by 40% and cutting API response latency to under 50ms.",
-        "Engineered real-time data streaming pipelines via socket communication, leveraging Apache Kafka to ensure reliable, asynchronous event-driven processing.",
+        "Designed ACID-compliant PostgreSQL schemas with B-Tree indexes, Redis caching, and PgBouncer connection pooling, reducing database load by 40% and cutting API latency under 50ms.",
+        "Engineered real-time data streaming pipelines via socket communication, leveraging Apache Kafka with bounded contexts to ensure reliable, idempotent event-driven processing.",
         "Containerized backend services with Docker and automated CI/CD via Bitrise and GitHub Actions, reducing manual deployment time by 60% while achieving zero-downtime releases for frontend and backend.",
         "Streamlined full-stack development workflows within a monorepo environment, resolving SonarQube-reported code smells to ensure long-term maintainability across both client and server codebases.",
         "Contributed to a scalable front-end design system published via Sonatype Nexus, accelerating cross-project UI feature delivery while maintaining cross-platform consistency."
       ],
-      skills: ["Node.js", "Express.js", "PostgreSQL", "Redis", "Apache Kafka", "Docker", "GitHub Actions", "Bitrise", "React Native", "Monorepo"]
+      skills: ["React Native", "Node.js", "Express.js", "PostgreSQL", "ACID Compliance", "B-Tree Indexing", "PgBouncer", "Redis", "Apache Kafka", "Docker", "Bitrise", "GitHub Actions", "Sonatype Nexus"]
     },
     {
       company: "Hemex Health",
@@ -167,11 +170,11 @@ export const portfolioData = {
       location: "Coimbatore, India",
       description: [
         "Developed a React Native application enabling real-time monitoring and control of portable Wi-Fi medical diagnostic devices.",
-        "Implemented socket-based communication with embedded diagnostic systems, decreasing connectivity drops by over 30% and improving real-time data sync reliability.",
-        "Optimized rendering and state management, reducing UI lag and improving screen responsiveness across varying mobile hardware specs.",
+        "Implemented Socket.IO and network protocols with embedded diagnostic systems, decreasing connectivity drops by over 30% and improving real-time data sync reliability.",
+        "Optimized OS memory management, Redux Toolkit state, and mobile rendering pipelines, reducing UI lag and eliminating frame drops on mobile hardware.",
         "Diagnosed and resolved critical production integration issues, enhancing application stability and improving overall medical diagnostic device reliability."
       ],
-      skills: ["React Native", "Socket Communication", "IoT Protocols", "Mobile State Optimization", "TypeScript", "Diagnostic Telemetry"]
+      skills: ["React Native", "Redux Toolkit", "Socket.IO", "Network Protocols", "OS Memory Management", "TypeScript", "Diagnostic Telemetry"]
     },
     {
       company: "Carecentra",
@@ -180,36 +183,36 @@ export const portfolioData = {
       location: "Chennai, India",
       description: [
         "Developed and maintained cross-platform mobile and web applications utilizing React Native and React.js, delivering responsive and user-centric interfaces.",
-        "Built and integrated RESTful APIs using Node.js and Express, facilitating seamless and secure data communication between client-side applications and the server.",
-        "Managed data persistence and retrieval by writing structured SQL queries and implementing CRUD operations in PostgreSQL, ensuring accurate data display on the front-end.",
+        "Built and integrated RESTful APIs and GraphQL endpoints using Node.js and Express, facilitating seamless and secure data communication between client-side applications and the server.",
+        "Managed data persistence and retrieval by writing structured SQL queries and implementing CRUD operations in PostgreSQL and MongoDB, ensuring accurate data display on the front-end.",
         "Collaborated across the stack to debug and resolve complex issues, tracing data flow from UI components down to the backend database to improve overall application stability.",
         "Participated in Agile development workflows, utilizing standard version control (Git) and collaborative tools to reliably deliver feature enhancements across sprint cycles."
       ],
-      skills: ["React Native", "React.js", "Node.js", "Express.js", "PostgreSQL", "REST APIs", "Agile/Scrum", "Git"]
+      skills: ["React Native", "React.js", "Redux Toolkit", "Node.js", "Express.js", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL", "Git"]
     }
   ] as ExperienceItem[],
 
   projects: [
     {
-      title: "Maritime Fleet Telemetry & Event Streaming Platform",
-      category: "Distributed Backend & IoT",
-      tagline: "Sub-50ms real-time event pipeline for maritime operations",
-      description: "Architected a high-throughput event processing pipeline integrating Apache Kafka and Redis for real-time vessel telemetry, synchronized with a cross-platform React Native client app. Achieved 40% database load reduction and sub-50ms response latency.",
-      metrics: "< 50ms API Latency | 40% DB Load Reduction",
-      techStack: ["Node.js", "Express", "Apache Kafka", "Redis", "PostgreSQL", "Docker", "React Native"],
+      title: "Medical Diagnostic Device Wi-Fi Controller",
+      category: "Mobile & Embedded IoT",
+      tagline: "High-performance React Native mobile diagnostic application",
+      description: "Engineered a mission-critical React Native mobile application for real-time monitoring and control of portable Wi-Fi diagnostic hardware. Built with Socket.IO telemetry streaming, Redux Toolkit state sync, and OS memory optimization preventing frame drops.",
+      metrics: "30% Fewer Connection Drops | Real-Time Sync",
+      techStack: ["React Native", "Redux Toolkit", "Socket.IO", "WebSockets", "TypeScript", "IoT Protocols"],
       featured: true,
-      architectureType: "Event-Driven Microservices",
+      architectureType: "React Native Socket Controller",
       githubUrl: "https://github.com/jefinagilbert",
     },
     {
-      title: "Medical Diagnostic Device Wi-Fi Controller",
-      category: "Mobile & Embedded IoT",
-      tagline: "Low-latency diagnostic telemetry mobile application",
-      description: "Engineered a mission-critical React Native mobile application for real-time monitoring and control of portable Wi-Fi diagnostic hardware. Created resilient socket sync protocols that reduced connectivity dropouts by 30%.",
-      metrics: "30% Fewer Connection Drops | Real-Time Sync",
-      techStack: ["React Native", "TypeScript", "WebSockets", "IoT Protocols", "Redux Toolkit"],
+      title: "Maritime Fleet Telemetry & Event Streaming Platform",
+      category: "Distributed Backend & IoT",
+      tagline: "Sub-50ms real-time event pipeline for maritime operations",
+      description: "Architected a high-throughput event processing pipeline integrating Apache Kafka and Redis for real-time vessel telemetry, synchronized with a cross-platform React Native client app. Employs API Gateway routing, PgBouncer pooling, and idempotent consumer queues.",
+      metrics: "< 50ms API Latency | 40% DB Load Reduction",
+      techStack: ["React Native", "Node.js", "Express", "Apache Kafka", "PgBouncer", "Redis", "PostgreSQL", "Docker"],
       featured: true,
-      architectureType: "Embedded Socket Gateway",
+      architectureType: "Event-Driven Microservices",
       githubUrl: "https://github.com/jefinagilbert",
     },
     {
@@ -227,9 +230,9 @@ export const portfolioData = {
       title: "Enterprise Full-Stack Monorepo Engine",
       category: "Architecture & DevOps",
       tagline: "Zero-downtime CI/CD and unified frontend/backend repository",
-      description: "Designed a production monorepo infrastructure unifying Node.js backend microservices, React Native mobile apps, and Next.js portals with SonarQube automated code quality gates and Bitrise/GitHub Actions pipelines.",
+      description: "Designed a production monorepo infrastructure unifying React Native mobile apps, Next.js web portals, and Node.js microservices with bounded contexts, SonarQube automated code quality gates, Sonatype Nexus packages, and Bitrise/GitHub Actions pipelines.",
       metrics: "60% Faster Release Cycle | Zero Downtime",
-      techStack: ["Docker", "GitHub Actions", "Bitrise", "SonarQube", "Node.js", "Next.js", "Nexus"],
+      techStack: ["React Native", "Next.js", "React.js", "Docker", "GitHub Actions", "Bitrise", "Sonatype Nexus"],
       featured: false,
       architectureType: "Monorepo & CI/CD Pipeline",
       githubUrl: "https://github.com/jefinagilbert",
@@ -285,15 +288,42 @@ export const portfolioData = {
 
   codeSnippet: `const jefinAgilbert = {
   role: "Software Engineer",
-  focus: ["Distributed Systems", "Sub-50ms APIs", "React Native"],
-  backend: ["Node.js", "Express.js", "PostgreSQL", "Redis", "Kafka"],
-  mobileAndWeb: ["React Native", "React", "Next.js", "TypeScript"],
-  devOps: ["Docker", "Kubernetes", "GitHub Actions", "Bitrise"],
-  achievements: [
-    "Published IEEE Paper on Smart Energy Automation",
-    "40% Database Load Reduction via Redis Caching",
-    "Sub-50ms Production API Latency",
-    "60% Deployment Automation with CI/CD"
+  mobileCore: [
+    "React Native",
+    "Redux Toolkit",
+    "Socket.IO",
+    "WebSockets",
+    "Design Systems (Nexus)"
+  ],
+  webStack: [
+    "React.js",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS"
+  ],
+  backendAndAPIs: [
+    "Node.js",
+    "Express.js",
+    "API Gateway Routing",
+    "Event-Driven (Kafka)",
+    "Idempotency",
+    "Bounded Contexts"
+  ],
+  databaseInternals: [
+    "PostgreSQL",
+    "ACID Compliance",
+    "Redis (Cache & PubSub)",
+    "PgBouncer Pooling",
+    "B-Tree Indexing",
+    "Database Sharding",
+    "MongoDB"
+  ],
+  infrastructure: [
+    "Docker",
+    "GitHub Actions",
+    "Bitrise CI/CD",
+    "OS Memory Management",
+    "Network Protocols"
   ],
   availableForCollaboration: true,
 };`
